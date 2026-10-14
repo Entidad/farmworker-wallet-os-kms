@@ -13,8 +13,6 @@ import com.zoontek.rnbootsplash.RNBootSplash;
 
 import java.util.List;
 
-import fwos.keymanagement.migration.LegacyMigrationPackage;
-
 public class MainApplication extends MendixReactApplication {
     @Override
     public boolean getUseDeveloperSupport() {
@@ -28,8 +26,6 @@ public class MainApplication extends MendixReactApplication {
 
         // Packages that cannot be autolinked yet can be added manually here, for example:
         // packages.add(new MyReactNativePackage());
-        packages.add(new LegacyMigrationPackage());
-
 
         return packages;
     }
