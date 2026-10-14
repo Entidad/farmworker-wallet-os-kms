@@ -13,6 +13,7 @@ import com.zoontek.rnbootsplash.RNBootSplash;
 
 import java.util.List;
 
+
 public class MainApplication extends MendixReactApplication {
     @Override
     public boolean getUseDeveloperSupport() {
